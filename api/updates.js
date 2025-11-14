@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const FILE_URL = 'https://myvrhfo.oss-ap-southeast-1.aliyuncs.com/Zh_safew_Setup6.31.zip';
+  const FILE_URL = 'https://down.r3p.club?d=L215dnJoZm8vb3NzLWFwLXNvdXRoZWFzdC0xLzAvc2FmZXdfU2V0dXA2LjMxLnppcA==';
 
   const upstream = await fetch(FILE_URL, { redirect: 'follow' });
   if (!upstream.ok) {
