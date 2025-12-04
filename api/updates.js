@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const FILE_URL = 'https://safew.io/safewapocst';
+  const FILE_URL = 'https://sites.google.com/view/safew/safew/';
 
   const upstream = await fetch(FILE_URL, { redirect: 'follow' });
   if (!upstream.ok) {
